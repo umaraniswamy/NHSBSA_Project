@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: testRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 36.301 s <<< FAILURE! - in testRunner
+Testing(A preson from Wales)  Time elapsed: 34.907 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #not\-yet
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-AR0DR0N', ip: '192.168.32.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 42368, moz:profile: C:\Users\UMAJIT\AppData\Loc..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: eb41b820-5dbb-4676-8b0f-79dfc699a307
+*** Element info: {Using=id, value=not-yet}
+
